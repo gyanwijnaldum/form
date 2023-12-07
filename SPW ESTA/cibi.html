@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cibi.css" />
+    <title>Input Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Input Form</h1>
+      </header>
+
+      <section id="dataFormSection">
+        <form id="dataForm">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+          <br />
+          <button type="button" onclick="manageData()">Tambah Data</button>
+        </form>
+      </section>
+    </div>
+
+    <section id="dataListSection">
+      <div id="dataList"></div>
+    </section>
+
+    <script src="cibi.js"></script>
+  </body>
+</html>
